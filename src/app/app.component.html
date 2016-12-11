@@ -1,14 +1,19 @@
-<div class="app-head">
-<md-toolbar color="primary">
-  <button md-icon-button>
-    <md-icon><i class="material-icons">reorder</i></md-icon>
-  </button>
-  <span>My Application Title</span>
+<div class="app-header">
+  <md-toolbar color="primary">
+    <button md-icon-button>
+      <md-icon><i class="material-icons">reorder</i></md-icon>
+    </button>
+    <span>Predictive Power</span>
 
     <!-- This fills the remaining space of the current row -->
-  <span class="example-fill-remaining-space"></span>
-</md-toolbar>
-  <div class="app-content">
+    <span class="example-fill-remaining-space"></span>
+  </md-toolbar>
+</div>
+
+<div class="app-content">
+  <div class="content">
     <router-outlet></router-outlet>
+  </div>
+  <div class="right-sidenav">
   </div>
 </div>
